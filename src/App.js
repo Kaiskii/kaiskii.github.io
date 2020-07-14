@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          WIP <3
+          WIP&lt;3
         </p>
       </header>
     </div>
