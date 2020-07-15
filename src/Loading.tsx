@@ -4,7 +4,9 @@ import './Loading.css';
 
 const Loading = () => {
   return(
-    <img src={KaiskiiLogo} className="Kaiskii-Logo"/>
+    <div className='square'>
+      <img src={KaiskiiLogo} className='Kaiskii-Logo'/>
+    </div>
   );
 }
 
