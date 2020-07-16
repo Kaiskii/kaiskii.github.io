@@ -1,5 +1,6 @@
 :root {
   --r: translate();
+  --opc-ran: 0s;
 }
 
 .square {
@@ -31,9 +32,15 @@
   /* border: 1px solid black; */
 
   opacity: 0.4;
-  overflow: hidden;
 
   animation: lSquareRot 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  animation-play-state: running;
+}
+
+.moreAnim {
+  opacity: 0;
+
+  animation: lSquareOpc var(--opc-ran) cubic-bezier(0.25, 0.46, 0.45, 0.94) alternate infinite;
   animation-play-state: running;
 }
 
@@ -48,6 +55,12 @@
   left: 50%;
   transform: translate(-55%, -50%);
   opacity: 1;
+}
+
+@keyframes lSquareOpc {
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes lSquareRot {
