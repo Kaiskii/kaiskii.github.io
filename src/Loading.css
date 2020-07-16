@@ -1,3 +1,7 @@
+:root {
+  --r: translate();
+}
+
 .square {
   background-color: #282c34;
   max-width: 1000000px;
@@ -14,15 +18,23 @@
 
 .LoadingSquare {
   background-color: #282c34;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 75px;
+  max-height: 75px;
   width: 100%;
   height: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: var(--r);
   z-index: 1;
+
+  /* border: 1px solid black; */
+
+  opacity: 0.3;
+  filter: blur(2px);
+
+  animation: lSquareRot 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  animation-play-state: running;
 }
 
 .Kaiskii-Logo {
@@ -36,4 +48,10 @@
   left: 50%;
   transform: translate(-55%, -50%);
   opacity: 1;
+}
+
+@keyframes lSquareRot {
+  100% {
+      transform: var(--r) rotate(360deg);
+  }
 }
