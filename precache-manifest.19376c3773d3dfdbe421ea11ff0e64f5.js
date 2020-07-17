@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c048d33e5791920b1520418636047be",
+    "revision": "fb898f85378f2cebcbab9ab5472effe9",
     "url": "/index.html"
   },
   {
-    "revision": "87908c3d8e7d2ffe7de1",
-    "url": "/static/css/main.79285ee9.chunk.css"
+    "revision": "ccc0b561603bd53f7eec",
+    "url": "/static/css/main.a7624f63.chunk.css"
   },
   {
     "revision": "10d0eaf259827e8facde",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.8c9cdcba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87908c3d8e7d2ffe7de1",
-    "url": "/static/js/main.5931e490.chunk.js"
+    "revision": "ccc0b561603bd53f7eec",
+    "url": "/static/js/main.0b8bc5ff.chunk.js"
   },
   {
     "revision": "03c551db69ab4de74f15",
@@ -28,7 +28,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/KaiskiiLogo.a9d494cf.svg"
   },
   {
-    "revision": "611ea683010eca19c0a5ce516bdb8bc8",
-    "url": "/static/media/wordpress.611ea683.png"
+    "revision": "9c9759b9f922bd3f106d9912deba9aa1",
+    "url": "/static/media/linkedin.9c9759b9.svg"
+  },
+  {
+    "revision": "10bb74b1dc5f54ed5bb4263284c0c1f9",
+    "url": "/static/media/twitter.10bb74b1.svg"
+  },
+  {
+    "revision": "0d289b285dd2a6b26631ea905982edce",
+    "url": "/static/media/wordpress.0d289b28.svg"
   }
 ]);
