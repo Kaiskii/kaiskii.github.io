@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7624f63.chunk.css",
-    "main.js": "/static/js/main.0b8bc5ff.chunk.js",
-    "main.js.map": "/static/js/main.0b8bc5ff.chunk.js.map",
+    "main.css": "/static/css/main.426ca72e.chunk.css",
+    "main.js": "/static/js/main.e209a056.chunk.js",
+    "main.js.map": "/static/js/main.e209a056.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.04462ac8.js",
     "runtime-main.js.map": "/static/js/runtime-main.04462ac8.js.map",
     "static/js/2.8c9cdcba.chunk.js": "/static/js/2.8c9cdcba.chunk.js",
     "static/js/2.8c9cdcba.chunk.js.map": "/static/js/2.8c9cdcba.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.19376c3773d3dfdbe421ea11ff0e64f5.js": "/precache-manifest.19376c3773d3dfdbe421ea11ff0e64f5.js",
+    "precache-manifest.3fbcb95f43e9c475dda3e771ce6eff8d.js": "/precache-manifest.3fbcb95f43e9c475dda3e771ce6eff8d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a7624f63.chunk.css.map": "/static/css/main.a7624f63.chunk.css.map",
+    "static/css/main.426ca72e.chunk.css.map": "/static/css/main.426ca72e.chunk.css.map",
     "static/js/2.8c9cdcba.chunk.js.LICENSE.txt": "/static/js/2.8c9cdcba.chunk.js.LICENSE.txt",
     "static/media/KaiskiiLogo.svg": "/static/media/KaiskiiLogo.a9d494cf.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.9c9759b9.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.04462ac8.js",
     "static/js/2.8c9cdcba.chunk.js",
-    "static/css/main.a7624f63.chunk.css",
-    "static/js/main.0b8bc5ff.chunk.js"
+    "static/css/main.426ca72e.chunk.css",
+    "static/js/main.e209a056.chunk.js"
   ]
 }
