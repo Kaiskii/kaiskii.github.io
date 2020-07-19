@@ -8,7 +8,6 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <div className='Navbar'>
-      <div className='Navbar-SM-Align'>
         <a href='https://twitter.com/_Kaiskii' target='_blank' rel='noopener noreferrer' className='Navbar-Btn'>
           <img src={tw} alt='twitter'/>
         </a>
@@ -20,7 +19,6 @@ const Navbar = () => {
         <a href='https://kappakaidev.wordpress.com/' target='_blank' rel='noopener noreferrer' className='Navbar-Btn'>
           <img src={wp} alt='wordpress'/>
         </a>
-      </div>
     </div>
   );
 }
