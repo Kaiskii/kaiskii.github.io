@@ -1,10 +1,27 @@
 @media only screen and (pointer:none), (pointer:coarse) and (max-width: 768px) {
+  .Navbar {
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+  }
+
   .Navbar-Btn {
     right: 25px;
     margin: 50px;
 
     transform: scale(0.8);
   }
+}
+
+@media only screen and (min-width: 1px) {
+  .Navbar {
+    justify-content: flex-end;
+    align-items: center;
+
+    display: flex;
+  }
+
 }
 
 .Navbar {
@@ -15,7 +32,7 @@
   position: sticky;
   opacity: 0.7;
 
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: center;
 
   display: flex;
