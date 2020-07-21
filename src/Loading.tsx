@@ -1,5 +1,5 @@
 import React from 'react';
-import KaiskiiLogo from './KaiskiiLogo.svg'
+import KaiskiiLogo from './img/KaiskiiLogo.svg'
 import './Loading.css';
 
 const Loading = () => {

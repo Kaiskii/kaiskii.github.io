@@ -1,7 +1,7 @@
 import React from 'react';
-import li from './linkedin.svg';
-import tw from './twitter.svg';
-import wp from './wordpress.svg';
+import li from './img/linkedin.svg';
+import tw from './img/twitter.svg';
+import wp from './img/wordpress.svg';
 import './Navbar.css';
 
 
