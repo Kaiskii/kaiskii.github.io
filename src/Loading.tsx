@@ -1,5 +1,6 @@
 import React from 'react';
 import KaiskiiLogo from './img/KaiskiiLogo.svg'
+import ArrowDown from './img/arrow_down.svg'
 import './Loading.css';
 
 const Loading = () => {
@@ -22,10 +23,21 @@ const Loading = () => {
     }
   }
 
+  const arrowBlink = [];
+  for(let i = 0; i < 3; i++) {
+    let styl = {'--arr-offset': `${92 - (i * 3.5)}%`, animationDelay: `${i * 1.5}s`} as React.CSSProperties;
+    arrowBlink.push(
+      <img src={ArrowDown} className='Arrow-Down' alt="arrow-down-0" style={styl}/>
+    )
+  }
+
   return(
     <div className='square'>
       {loadingBlocks}
       <img src={KaiskiiLogo} className='Kaiskii-Logo' alt='kaiskii' draggable='false' onMouseDown={(event) => {if (event.preventDefault) event.preventDefault()}} />
+      <div id='arrow-group'>
+        {arrowBlink}
+      </div>
     </div>
   );
 }

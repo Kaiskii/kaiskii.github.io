@@ -1,6 +1,7 @@
 :root {
   --r: translate();
   --opc-ran: 0s;
+  --arr-offset: 90%;
 }
 
 .square {
@@ -76,6 +77,28 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.Arrow-Down {
+  width: 3vw;
+  height: auto;
+
+  opacity: 0.4;
+
+  position: fixed;
+  top: var(--arr-offset);
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  animation: arrowOpc 1.2s alternate infinite;
+  animation-play-state: running;
+}
+
+@keyframes arrowOpc {
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes lSquareOpc {
