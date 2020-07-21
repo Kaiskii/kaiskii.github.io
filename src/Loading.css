@@ -15,6 +15,13 @@
   left: 50%;
   transform: translateX(-50%);
   opacity: 1;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .LoadingSquare {
@@ -35,6 +42,13 @@
 
   animation: lSquareRot 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
   animation-play-state: running;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .moreAnim {
@@ -55,6 +69,13 @@
   left: 50%;
   transform: translate(-55%, -50%);
   opacity: 1;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @keyframes lSquareOpc {

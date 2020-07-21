@@ -25,7 +25,7 @@ const Loading = () => {
   return(
     <div className='square'>
       {loadingBlocks}
-      <img src={KaiskiiLogo} className='Kaiskii-Logo' alt='kaiskii'/>
+      <img src={KaiskiiLogo} className='Kaiskii-Logo' alt='kaiskii' draggable='false' onMouseDown={(event) => {if (event.preventDefault) event.preventDefault()}} />
     </div>
   );
 }
