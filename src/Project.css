@@ -1,0 +1,14 @@
+.Project-BG {
+  width: 100%;
+  height: 100%;
+
+  top: 100%;
+
+  max-width: 100vw;
+  max-height: 100vh;
+
+  color: rgb(255, 255, 255);
+  background-color: white;
+  display: block;
+  position: absolute;
+}

@@ -29,8 +29,9 @@
   height: 10vh;
   top: 0px;
   background-color: #1e272e;
-  position: sticky;
   opacity: 0.7;
+
+  position: fixed;
 
   /* justify-content: flex-end; */
   align-items: center;
