@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c88b185.chunk.css",
+    "main.css": "/static/css/main.0987101a.chunk.css",
     "main.js": "/static/js/main.7247774d.chunk.js",
     "main.js.map": "/static/js/main.7247774d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.04462ac8.js",
@@ -8,21 +8,20 @@
     "static/js/2.8cb362f2.chunk.js": "/static/js/2.8cb362f2.chunk.js",
     "static/js/2.8cb362f2.chunk.js.map": "/static/js/2.8cb362f2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1c023a5ffb4afdb7c396e8ec8ceaadfa.js": "/precache-manifest.1c023a5ffb4afdb7c396e8ec8ceaadfa.js",
+    "precache-manifest.a6c696227574f89e0e0d5d3b916c7f3b.js": "/precache-manifest.a6c696227574f89e0e0d5d3b916c7f3b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8c88b185.chunk.css.map": "/static/css/main.8c88b185.chunk.css.map",
+    "static/css/main.0987101a.chunk.css.map": "/static/css/main.0987101a.chunk.css.map",
     "static/js/2.8cb362f2.chunk.js.LICENSE.txt": "/static/js/2.8cb362f2.chunk.js.LICENSE.txt",
     "static/media/KaiskiiLogo.svg": "/static/media/KaiskiiLogo.a9d494cf.svg",
     "static/media/arrow_down.svg": "/static/media/arrow_down.88f4418c.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.9c9759b9.svg",
-    "static/media/Project.css": "/static/media/placeholder.e9c23e60.jpg",
     "static/media/twitter.svg": "/static/media/twitter.10bb74b1.svg",
     "static/media/wordpress.svg": "/static/media/wordpress.0d289b28.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.04462ac8.js",
     "static/js/2.8cb362f2.chunk.js",
-    "static/css/main.8c88b185.chunk.css",
+    "static/css/main.0987101a.chunk.css",
     "static/js/main.7247774d.chunk.js"
   ]
 }
