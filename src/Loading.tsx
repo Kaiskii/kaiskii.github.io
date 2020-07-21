@@ -8,7 +8,6 @@ const Loading = () => {
   for(let y = 0; y < 9; y++) {
     for(let x = 0; x < 12; x++) {
       const ran = Math.random() * 18.0;
-      console.log(ran);
       if (ran > 2) {
         continue;
       }
@@ -16,8 +15,8 @@ const Loading = () => {
       let s = {'--r': `translate(${-65 + (x * 10)}vw, ${-42.5 + (y * 10)}vh)`,  animationDelay: `${ran}s`} as React.CSSProperties;
       let opc = {animationDelay: `${Math.random() * 10.0}s`, '--opc-ran': `${Math.random() * (4 - 3) + 3}s`} as React.CSSProperties;
       loadingBlocks.push(
-        <div className='moreAnim' style={opc}>
-          <div className='LoadingSquare' style={s}/>
+        <div className='moreAnim' key={`${y * 10 + x}-anim`} style={opc}>
+          <div className='LoadingSquare' key={`${y * 10 + x}-load`} style={s}/>
         </div>
       );
     }
@@ -27,7 +26,7 @@ const Loading = () => {
   for(let i = 0; i < 3; i++) {
     let styl = {'--arr-offset': `${92 - (i * 3.5)}%`, animationDelay: `${i * 1.5}s`} as React.CSSProperties;
     arrowBlink.push(
-      <img src={ArrowDown} className='Arrow-Down' alt="arrow-down-0" style={styl}/>
+      <img src={ArrowDown} key={`${i}-arrow`} className='Arrow-Down' alt="arrow-down-0" style={styl}/>
     )
   }
 
