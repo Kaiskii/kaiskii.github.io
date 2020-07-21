@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fcd40679.chunk.css",
+    "main.css": "/static/css/main.12333607.chunk.css",
     "main.js": "/static/js/main.e209a056.chunk.js",
     "main.js.map": "/static/js/main.e209a056.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.04462ac8.js",
@@ -8,9 +8,9 @@
     "static/js/2.8c9cdcba.chunk.js": "/static/js/2.8c9cdcba.chunk.js",
     "static/js/2.8c9cdcba.chunk.js.map": "/static/js/2.8c9cdcba.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1585c97e3b13befda548a82b41b5d1d6.js": "/precache-manifest.1585c97e3b13befda548a82b41b5d1d6.js",
+    "precache-manifest.220245fb964f1a3cc793d90a561e3d38.js": "/precache-manifest.220245fb964f1a3cc793d90a561e3d38.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fcd40679.chunk.css.map": "/static/css/main.fcd40679.chunk.css.map",
+    "static/css/main.12333607.chunk.css.map": "/static/css/main.12333607.chunk.css.map",
     "static/js/2.8c9cdcba.chunk.js.LICENSE.txt": "/static/js/2.8c9cdcba.chunk.js.LICENSE.txt",
     "static/media/KaiskiiLogo.svg": "/static/media/KaiskiiLogo.a9d494cf.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.9c9759b9.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.04462ac8.js",
     "static/js/2.8c9cdcba.chunk.js",
-    "static/css/main.fcd40679.chunk.css",
+    "static/css/main.12333607.chunk.css",
     "static/js/main.e209a056.chunk.js"
   ]
 }
