@@ -23,10 +23,21 @@ const Project = () => {
       loop={true}
       className='Project-Slider-Container'
       >
-        <SwiperSlide className='Project-Slider-Content'> <img src="https://i.imgur.com/Q77RNUt.jpg" alt="o" className='Project-Image'/> </SwiperSlide>
-        <SwiperSlide className='Project-Slider-Content'> <img src="https://i.imgur.com/Q77RNUt.jpg" alt="o" className='Project-Image'/> </SwiperSlide>
-        <SwiperSlide className='Project-Slider-Content'> <img src="https://i.imgur.com/zIV8yZD.jpg" alt="o" className='Project-Image'/> </SwiperSlide>
-        <SwiperSlide className='Project-Slider-Content'> <img src="https://i.imgur.com/apqk10p.jpg" alt="o" className='Project-Image'/> </SwiperSlide>
+        <SwiperSlide className='Project-Slider-Content'>
+          <img src="https://i.imgur.com/Q77RNUt.jpg" alt="Placeholder" className='Project-Image'/>
+        </SwiperSlide>
+
+        <SwiperSlide className='Project-Slider-Content'>
+          <img src="https://i.imgur.com/Q77RNUt.jpg" alt="Placeholder" className='Project-Image'/>
+        </SwiperSlide>
+
+        <SwiperSlide className='Project-Slider-Content'>
+          <img src="https://i.imgur.com/zIV8yZD.jpg" alt="German Flatulence XXX" className='Project-Image'/>
+        </SwiperSlide>
+
+        <SwiperSlide className='Project-Slider-Content'>
+          <img src="https://i.imgur.com/apqk10p.jpg" alt="Cloud Citadel" className='Project-Image'/>
+        </SwiperSlide>
       </Swiper>
     </div>
   );
