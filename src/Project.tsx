@@ -26,26 +26,31 @@ const Project = () => {
       className='Project-Slider-Container'
       >
         <SwiperSlide className='Project-Slider-Content'>
-          <a href="https://kaiskii.itch.io/help-im-trapped-in-a-submarine" style={{color: 'inherit'}}>
+          <a href="https://kaiskii.itch.io/help-im-trapped-in-a-submarine" target='_blank' rel='noopener noreferrer' style={{color: 'inherit'}}>
             <img src="https://i.imgur.com/2mMhfWj.png" alt="help!insert light novel title" className='Project-Image'/>
           </a>
 
-          <h1 className='Project-Text' style={{top: '80%'}}>
-            Help! I'm Trapped In A Submarine And I Can Only Use One System And There Are Mines
+          <h1 className='Project-Text' style={{top: '80%', textAlign: 'center'}}>
+            Help! I'm Trapped In A Submarine
+            <br />
+            And I Can Only Use One System And There Are Mines
           </h1>
         </SwiperSlide>
 
         <SwiperSlide className='Project-Slider-Content'>
-          <a href="#" style={{color: 'inherit'}}>
-            <img src="https://i.imgur.com/Q77RNUt.jpg" alt="Placeholder" className='Project-Image'/>
+          <a href="https://kaiskii.itch.io/untower" target='_blank' rel='noopener noreferrer' style={{color: 'inherit'}}>
+            <img src="https://i.imgur.com/yEkG4B5.png" alt="Untower" className='Project-Image'/>
           </a>
 
           <h1 className='Project-Text' style={{top: '77%'}}>
-            Placeholder
+            Untower
           </h1>
 
           <p className='Project-Text' style={{top: '87%'}}>
-            Placeholder
+            UnTower is more interactive than your usual Tower Defense Game. Every Tower has PHYSICS, they have recoil AND can be knocked around by friends and enemies. Claw your turrets, and reposition them before the enemy reaches your base!
+            <br />
+            <br />
+            Micromanage your resources, 3 different towers, and a variety of buff towers. Find out how long you can last.
           </p>
         </SwiperSlide>
 
