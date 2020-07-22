@@ -44,3 +44,13 @@
 
   position: absolute;
 }
+
+.Project-Text {
+  color: #f5f6fa;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: table-cell;
+  text-align: justify;
+}
