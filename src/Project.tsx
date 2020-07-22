@@ -1,16 +1,17 @@
 import React from 'react';
 
-import SwiperCore, { Pagination } from 'swiper';
+import SwiperCore, { Navigation, Pagination } from 'swiper';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 
 import './Project.css';
 
-SwiperCore.use([Pagination]);
+SwiperCore.use([Navigation, Pagination]);
 
 const Project = () => {
   return (
@@ -19,6 +20,7 @@ const Project = () => {
       <Swiper
       spaceBetween={0}
       slidesPerView={1}
+      navigation={{}}
       pagination={{ clickable: true }}
       loop={true}
       className='Project-Slider-Container'
