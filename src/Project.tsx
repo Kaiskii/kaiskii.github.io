@@ -26,17 +26,13 @@ const Project = () => {
       className='Project-Slider-Container'
       >
         <SwiperSlide className='Project-Slider-Content'>
-          <a href="#" style={{color: 'inherit'}}>
-            <img src="https://i.imgur.com/Q77RNUt.jpg" alt="Placeholder" className='Project-Image'/>
+          <a href="https://kaiskii.itch.io/help-im-trapped-in-a-submarine" style={{color: 'inherit'}}>
+            <img src="https://i.imgur.com/2mMhfWj.png" alt="help!insert light novel title" className='Project-Image'/>
           </a>
 
-          <h1 className='Project-Text' style={{top: '77%'}}>
-            Placeholder
+          <h1 className='Project-Text' style={{top: '80%'}}>
+            Help! I'm Trapped In A Submarine And I Can Only Use One System And There Are Mines
           </h1>
-
-          <p className='Project-Text' style={{top: '87%'}}>
-            Placeholder
-          </p>
         </SwiperSlide>
 
         <SwiperSlide className='Project-Slider-Content'>
