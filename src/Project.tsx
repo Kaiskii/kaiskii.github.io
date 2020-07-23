@@ -72,7 +72,7 @@ const Project = () => {
         </SwiperSlide>
 
         <SwiperSlide className='Project-Slider-Content'>
-          <a href="#" style={{color: 'inherit'}}>
+          <a href="https://kaiskii.itch.io/cloud-citadel" target='_blank' rel='noopener noreferrer' style={{color: 'inherit'}}>
             <img src="https://i.imgur.com/apqk10p.jpg" alt="Cloud Citadel" className='Project-Image'/>
           </a>
           <h1 className='Project-Text' style={{top: '77%'}}>
