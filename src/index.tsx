@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Navbar from './Navbar';
 import Loading from './Loading';
+import Project from './Project';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Loading />
+    <Project />
     <Navbar />
   </React.StrictMode>,
   document.getElementById('root')

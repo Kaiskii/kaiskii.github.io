@@ -29,13 +29,16 @@
   height: 10vh;
   top: 0px;
   background-color: #1e272e;
-  position: sticky;
-  opacity: 0.7;
+  opacity: 0.9;
+
+  position: fixed;
 
   /* justify-content: flex-end; */
   align-items: center;
 
   display: flex;
+
+  z-index: 10;
 
   box-shadow: 0px 8px 15px 5px;
 }
